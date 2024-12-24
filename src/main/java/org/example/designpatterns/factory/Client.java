@@ -25,5 +25,7 @@ public class Client {
 
         Menu menu = uiComponentFactory.createMenu();
         menu.checkMenu();
+
+        uiComponent.refreshUI();
     }
 }

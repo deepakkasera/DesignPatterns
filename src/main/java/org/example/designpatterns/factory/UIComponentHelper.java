@@ -5,6 +5,7 @@ import org.example.designpatterns.factory.factory.IOSUIComponent;
 import org.example.designpatterns.factory.factory.UIComponent;
 
 public class UIComponentHelper {
+    //Practical Factory.
     public static UIComponent getUIComponentForPlatform(String platform) {
         UIComponent uiComponent = null;
         if (platform.equals("Android")) {
